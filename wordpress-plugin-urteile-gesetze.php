@@ -88,9 +88,6 @@ function urteile_gesetze_verlinkung_save_content($content){
 }
 
 function urteile_gesetze_verlinkung_show_content_with_links($text){
-
-    error_log("in show_content - loop: ".in_the_loop().", isSingular: ".is_singular().", mainQuery: ".is_main_query());
-
     global $wpdb;
 	include_once("wp-config.php");
     include_once("wp-includes/wp-db.php");
